@@ -15,6 +15,7 @@
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		39233989168BCC995B80011BCF52440A /* CBIBlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6E2E7FF7843083DB545968FC633552 /* CBIBlinkingLabel-dummy.m */; };
 		49860FA738C57E10420929BB3D124DF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
@@ -32,11 +33,10 @@
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		D08416379FD678D57B9AEB023BDF6DF6 /* CBIBlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84894F08BB41B50F37D8774D8BC7E1C4 /* CBIBlinkingLabel-dummy.m */; };
+		D462D3440046E75810B7696677AA00A8 /* CBIBlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39F19295FE3255C251434EBF4CECF07E /* CBIBlinkingLabel.swift */; };
 		D9AFC451F003C5B67AAFE7A8BA5A6D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		DDF7E0760062D1EA709323E256909C24 /* Pods-CBIBlinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4E0136797BEF47D190BDE07B57A8E5 /* Pods-CBIBlinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDB9EB270F81B29E0F78F2DB385A3C7A /* CBIBlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC0E33CF787CF9D9A1C00992B86DD9B /* CBIBlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F27E020FA1BE57804DCD8527AA4F0747 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7585584CEA6A8C766863B1C9A429C662 /* ReplaceMe.swift */; };
+		EDB9EB270F81B29E0F78F2DB385A3C7A /* CBIBlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BB963EBFC9AEBB299DE0BB5D2F991A /* CBIBlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -65,7 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F3A9CEA5CB0E5BF390C6DDEBDB8C5E8 /* CBIBlinkingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CBIBlinkingLabel.modulemap; sourceTree = "<group>"; };
+		07FA82238E246882799FCE51E6723FA5 /* CBIBlinkingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBIBlinkingLabel.debug.xcconfig; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -75,27 +75,25 @@
 		2EB6ED1289B53BDC769E3CB062DCE283 /* Pods-CBIBlinkingLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBIBlinkingLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		362BDCA803031D153930548BAEBE8F51 /* Pods-CBIBlinkingLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBIBlinkingLabel_Example-Info.plist"; sourceTree = "<group>"; };
+		39F19295FE3255C251434EBF4CECF07E /* CBIBlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBIBlinkingLabel.swift; path = CBIBlinkingLabel/Classes/CBIBlinkingLabel.swift; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		42E0F5E8267FF065AD0E117AFF4A35EB /* Pods-CBIBlinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CBIBlinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		484A88A7E5E4F593AC8271AB3D7A8C49 /* Pods-CBIBlinkingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBIBlinkingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		4E7EBB82D1B166DF689DA5E9CD4FAE7F /* CBIBlinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBIBlinkingLabel-prefix.pch"; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		665C42D75C632124877E51370F72149C /* CBIBlinkingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBIBlinkingLabel.release.xcconfig; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6B21F5F32825A7E21D7AFD369C0F8EC5 /* Pods-CBIBlinkingLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CBIBlinkingLabel_Tests"; path = Pods_CBIBlinkingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B236AC8F67FC3DCC9F9F7294C495B66 /* Pods-CBIBlinkingLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CBIBlinkingLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7585584CEA6A8C766863B1C9A429C662 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CBIBlinkingLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		72DF8D0C37A6546E31B8F604DEF99EAF /* CBIBlinkingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CBIBlinkingLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7E8170AE664F9E9EE9CDEE7B40CCF784 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7EC0E33CF787CF9D9A1C00992B86DD9B /* CBIBlinkingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBIBlinkingLabel-umbrella.h"; sourceTree = "<group>"; };
 		7F85FB62B9A359E974D4B17950EEB839 /* Pods-CBIBlinkingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CBIBlinkingLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		84894F08BB41B50F37D8774D8BC7E1C4 /* CBIBlinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CBIBlinkingLabel-dummy.m"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		89876DE550D632FB4EFCF322DD031A05 /* Pods-CBIBlinkingLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBIBlinkingLabel_Tests-Info.plist"; sourceTree = "<group>"; };
-		8C81D2DFEA949B8D5A4A50C171E1C04B /* CBIBlinkingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CBIBlinkingLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B06A7F6C170381E71D37230C52C37D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		93A6919FC49A7CBD94B883B5556A0421 /* Pods-CBIBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBIBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
@@ -103,10 +101,10 @@
 		963605EECE5DA30E5DF20660D4440041 /* Pods-CBIBlinkingLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CBIBlinkingLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1A643C46638785E84F8CB9543B56342 /* CBIBlinkingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CBIBlinkingLabel-Info.plist"; sourceTree = "<group>"; };
 		A7AFDCE970117404B9162802BA0F9A86 /* Pods-CBIBlinkingLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CBIBlinkingLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ABADCB57FBEE0BC458F704AF19D73802 /* CBIBlinkingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CBIBlinkingLabel.modulemap; sourceTree = "<group>"; };
+		AC6E2E7FF7843083DB545968FC633552 /* CBIBlinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CBIBlinkingLabel-dummy.m"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		B19F944605909D1CF877A11A98F695D4 /* CBIBlinkingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBIBlinkingLabel.debug.xcconfig; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		B9E614092BF5CC706D000A49558E1282 /* Pods-CBIBlinkingLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CBIBlinkingLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C36CB34EBFD99C706D5AE8BD5EA50154 /* Pods-CBIBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBIBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,14 +113,16 @@
 		C9F9CFAD7CCE1512D3E13661CCE15101 /* Pods-CBIBlinkingLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CBIBlinkingLabel_Example"; path = Pods_CBIBlinkingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D29488ECE1D0D831E55396FA234F5202 /* CBIBlinkingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CBIBlinkingLabel.release.xcconfig; sourceTree = "<group>"; };
+		D1BB963EBFC9AEBB299DE0BB5D2F991A /* CBIBlinkingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBIBlinkingLabel-umbrella.h"; sourceTree = "<group>"; };
+		D4555723BF6518E330D2DA5DFF3084D4 /* CBIBlinkingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CBIBlinkingLabel-Info.plist"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		DA4E0136797BEF47D190BDE07B57A8E5 /* Pods-CBIBlinkingLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CBIBlinkingLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE877F9A18AA3A8D9FC061D83ECD982C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E3F7295336BE34DCC2DA6F9D689314E4 /* Pods-CBIBlinkingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CBIBlinkingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		E6280521AC2E3A7090F6E30EBE6BDBFC /* Pods-CBIBlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CBIBlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F4A33970F5C87135A1702094A5257B04 /* CBIBlinkingLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CBIBlinkingLabel; path = CBIBlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA34A65575C29401197D8147259C130D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FE1511B66BA74B31A0EB04F88160984A /* CBIBlinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CBIBlinkingLabel-prefix.pch"; sourceTree = "<group>"; };
 		FE543E3502CA146335C03C5BD3247903 /* Pods-CBIBlinkingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CBIBlinkingLabel_Example.modulemap"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +166,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25F09DC2EA8CEB0E1C734B8904B079CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABADCB57FBEE0BC458F704AF19D73802 /* CBIBlinkingLabel.modulemap */,
+				AC6E2E7FF7843083DB545968FC633552 /* CBIBlinkingLabel-dummy.m */,
+				D4555723BF6518E330D2DA5DFF3084D4 /* CBIBlinkingLabel-Info.plist */,
+				FE1511B66BA74B31A0EB04F88160984A /* CBIBlinkingLabel-prefix.pch */,
+				D1BB963EBFC9AEBB299DE0BB5D2F991A /* CBIBlinkingLabel-umbrella.h */,
+				07FA82238E246882799FCE51E6723FA5 /* CBIBlinkingLabel.debug.xcconfig */,
+				665C42D75C632124877E51370F72149C /* CBIBlinkingLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CBIBlinkingLabel";
+			sourceTree = "<group>";
+		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,16 +200,6 @@
 				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		629EBFDD574CAFAF5AEE1C5E15A5F42D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8C81D2DFEA949B8D5A4A50C171E1C04B /* CBIBlinkingLabel.podspec */,
-				FA34A65575C29401197D8147259C130D /* LICENSE */,
-				7E8170AE664F9E9EE9CDEE7B40CCF784 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		688B8BBF347F7C16523ACFD9B5F0DFE2 /* Pods-CBIBlinkingLabel_Example */ = {
@@ -265,30 +270,14 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		C596E2E466A54A9E49A752A047ADFEF8 /* Support Files */ = {
+		C3F8D5551E5896011F237133FD1DA4E6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				0F3A9CEA5CB0E5BF390C6DDEBDB8C5E8 /* CBIBlinkingLabel.modulemap */,
-				84894F08BB41B50F37D8774D8BC7E1C4 /* CBIBlinkingLabel-dummy.m */,
-				A1A643C46638785E84F8CB9543B56342 /* CBIBlinkingLabel-Info.plist */,
-				4E7EBB82D1B166DF689DA5E9CD4FAE7F /* CBIBlinkingLabel-prefix.pch */,
-				7EC0E33CF787CF9D9A1C00992B86DD9B /* CBIBlinkingLabel-umbrella.h */,
-				B19F944605909D1CF877A11A98F695D4 /* CBIBlinkingLabel.debug.xcconfig */,
-				D29488ECE1D0D831E55396FA234F5202 /* CBIBlinkingLabel.release.xcconfig */,
+				72DF8D0C37A6546E31B8F604DEF99EAF /* CBIBlinkingLabel.podspec */,
+				8B06A7F6C170381E71D37230C52C37D9 /* LICENSE */,
+				DE877F9A18AA3A8D9FC061D83ECD982C /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CBIBlinkingLabel";
-			sourceTree = "<group>";
-		};
-		CB067F343F528360724ACEBED959CB89 /* CBIBlinkingLabel */ = {
-			isa = PBXGroup;
-			children = (
-				7585584CEA6A8C766863B1C9A429C662 /* ReplaceMe.swift */,
-				629EBFDD574CAFAF5AEE1C5E15A5F42D /* Pod */,
-				C596E2E466A54A9E49A752A047ADFEF8 /* Support Files */,
-			);
-			name = CBIBlinkingLabel;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -339,10 +328,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F33548D58E800A8B3751E3A34F0BF7E7 /* CBIBlinkingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				39F19295FE3255C251434EBF4CECF07E /* CBIBlinkingLabel.swift */,
+				C3F8D5551E5896011F237133FD1DA4E6 /* Pod */,
+				25F09DC2EA8CEB0E1C734B8904B079CE /* Support Files */,
+			);
+			name = CBIBlinkingLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		F3DA7867CC1ABB7F1D24F1602F847095 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB067F343F528360724ACEBED959CB89 /* CBIBlinkingLabel */,
+				F33548D58E800A8B3751E3A34F0BF7E7 /* CBIBlinkingLabel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -427,7 +427,7 @@
 			buildConfigurationList = A83ED541AE8B92D3BB5D1AFD9B2C81FF /* Build configuration list for PBXNativeTarget "CBIBlinkingLabel" */;
 			buildPhases = (
 				665FC22883F1E01FB2C63964E5265EA0 /* Headers */,
-				5091D05A9ADA5339746ABC63B644430B /* Sources */,
+				2713935ABC8C2218883ACE3E54FAAD48 /* Sources */,
 				53C00FFB690ED7D9547E44873A764067 /* Frameworks */,
 				5BC8A7C5063CEB2F1AD4A0E3CF664CC6 /* Resources */,
 			);
@@ -540,12 +540,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5091D05A9ADA5339746ABC63B644430B /* Sources */ = {
+		2713935ABC8C2218883ACE3E54FAAD48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D08416379FD678D57B9AEB023BDF6DF6 /* CBIBlinkingLabel-dummy.m in Sources */,
-				F27E020FA1BE57804DCD8527AA4F0747 /* ReplaceMe.swift in Sources */,
+				D462D3440046E75810B7696677AA00A8 /* CBIBlinkingLabel.swift in Sources */,
+				39233989168BCC995B80011BCF52440A /* CBIBlinkingLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,9 +734,9 @@
 			};
 			name = Debug;
 		};
-		43C0E5698C87110FE9267522720A8F22 /* Debug */ = {
+		8063E849F97064FAE281B1C5312AE5E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B19F944605909D1CF877A11A98F695D4 /* CBIBlinkingLabel.debug.xcconfig */;
+			baseConfigurationReference = 07FA82238E246882799FCE51E6723FA5 /* CBIBlinkingLabel.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -757,7 +757,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -827,9 +827,9 @@
 			};
 			name = Release;
 		};
-		B17937A96F2183DFB524E699228F5219 /* Release */ = {
+		9312BE4BE74722E7D740F555504C2691 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D29488ECE1D0D831E55396FA234F5202 /* CBIBlinkingLabel.release.xcconfig */;
+			baseConfigurationReference = 665C42D75C632124877E51370F72149C /* CBIBlinkingLabel.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -850,7 +850,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1027,8 +1027,8 @@
 		A83ED541AE8B92D3BB5D1AFD9B2C81FF /* Build configuration list for PBXNativeTarget "CBIBlinkingLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43C0E5698C87110FE9267522720A8F22 /* Debug */,
-				B17937A96F2183DFB524E699228F5219 /* Release */,
+				8063E849F97064FAE281B1C5312AE5E4 /* Debug */,
+				9312BE4BE74722E7D740F555504C2691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

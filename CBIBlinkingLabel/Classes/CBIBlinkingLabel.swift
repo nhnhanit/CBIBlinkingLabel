@@ -9,7 +9,7 @@ import UIKit
 
 public class CBIBlinkingLabel : UILabel {
     public func startBlinking() {
-        UIView.animate(withDuration: 0.35, delay:0.5, options: [.repeat, .autoreverse], animations: {
+        UIView.animate(withDuration: 0.5, delay: 1, options: [.repeat, .autoreverse], animations: {
             self.alpha = 0
             }, completion: nil)
     }

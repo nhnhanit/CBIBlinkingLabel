@@ -1,0 +1,22 @@
+{
+  "name": "CBIBlinkingLabel",
+  "version": "0.1.0",
+  "summary": "A short description of CBIBlinkingLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Nguyen Hong Nhan/CBIBlinkingLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nguyen Hong Nhan": "nhnhanit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Nguyen Hong Nhan/CBIBlinkingLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CBIBlinkingLabel/Classes/**/*"
+}

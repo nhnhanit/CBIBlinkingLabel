@@ -1,0 +1,27 @@
+PODS:
+  - CBIBlinkingLabel (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CBIBlinkingLabel (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CBIBlinkingLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CBIBlinkingLabel: 52b9b721616347c576fc62b7a77c84d18ed13af3
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 1a35e847b1279075d79686b08579acd4796e98d1
+
+COCOAPODS: 1.11.2
